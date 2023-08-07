@@ -1,38 +1,36 @@
-.App {
+.weatherBg{
+  background: url("/Users/Pramisha/Downloads/weather.jpg");
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  height: 50vh;
 }
-
-.App-link {
-  color: #61dafb;
+.heading{
+  color:white;
 }
+.weatherResultBox{
+  margin: auto;
+  width: 500px;
+  height: 450px;
+  padding: 10px;
+  top: 10%;
+  background-color: rgb(201, 206, 204);
+}
+.body{
+  background-color: rgb(192, 248, 229);
+}
+.pic{
+  height: 250px;
+  width: 60%;
+  text-align: center;
+  align-items: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.weathertemperature{
+  color:rgb(10, 10, 10);
+}
+.weathercity{
+  color: rgb(14, 1, 1);
 }
